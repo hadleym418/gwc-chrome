@@ -22,6 +22,9 @@ document.getElementById("DanceOn").addEventListener('click', async () => {
     if (response === 'success') {
       // do something after you find receive a response/reply
       // from content.js that the message has been received successfully 
+      console.log("YES")
+    } else {
+      console.log("NO")
     }
   });
 
