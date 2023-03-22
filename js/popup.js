@@ -5,7 +5,7 @@
 
 
 
-/*
+
 // listening for a click event on the #DanceOn <button>
 document.getElementById("DanceOn").addEventListener('click', async () => {
 
@@ -26,7 +26,7 @@ document.getElementById("DanceOn").addEventListener('click', async () => {
   });
 
 });
-*/
+
 
 // function to get the tabId of the current tab
 async function getTabId() {

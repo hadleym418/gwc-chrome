@@ -1,8 +1,4 @@
 
-
-
-
-/*
 // waiting/listening for a message from popup.js
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     // communication tree - extecuted on receiving a message from popup.js
@@ -47,6 +43,4 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     // send a response back to popup.js that the message has been successfully received
     sendResponse('success');
     
-});
-
-*/
+}); 
